@@ -1,3 +1,8 @@
+# Abstract
+This study aims to reproduce the results of the paper “In-depth Benchmarking of Deep Neural Network Architectures for ECG Diagnosis” by Nonaka and Seita (2021), which benchmarks several deep learning models for ECG classification. The team reproduced results using two architectures—ResNet1D and NF-ResNet1D—on the G12EC dataset using three different loss functions: Binary Cross-Entropy (BCE), Focal Loss, and Asymmetric Loss. Our results affirm the paper’s claim that ResNet-18 serves as a strong baseline, with no consistently superior architecture across configurations. The team also explored model performance under different loss functions. Results show that Asymmetric Loss led to the highest F1 score, suggesting it is better suited for imbalanced ECG data
+
+
+
 # Enviroment
 - Python 3.9.2
 
